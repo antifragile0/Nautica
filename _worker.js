@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "antifragile.web.id"; // Ganti dengan domain utama kalian
+const rootDomain = "nautica.antifragile.web.id"; // Ganti dengan domain utama kalian
 const serviceName = "nautica"; // Ganti dengan nama workers kalian
 const apiKey = "93d1a5c8aad33d01fc7d32de202926f77a6c6"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = "bimahabib2@gmail.com"; // Ganti dengan email yang kalian gunakan
