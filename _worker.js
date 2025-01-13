@@ -1,7 +1,7 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = '${ROOT_DOMAIN}'; // Ganti dengan domain utama kalian
+const rootDomain = '${ROOT_DOMAIN_KU}'; // Ganti dengan domain utama kalian
 const serviceName = '${SERVICE_NAME}'; // Ganti dengan nama workers kalian
 const apiKey = '${API_KEY}'; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = '${API_EMAIL}'; // Ganti dengan email yang kalian gunakan
