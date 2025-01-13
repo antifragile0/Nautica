@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = ${{ vars.ROOT_DOMAIN }}; // Ganti dengan domain utama kalian
-const serviceName = ${{ vars.SERVICE_NAME }}; // Ganti dengan nama workers kalian
-const apiKey = ${{ vars.API_KEY }}; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ${{ vars.API_EMAIL }}; // Ganti dengan email yang kalian gunakan
-const accountID = ${{ vars.ACCOUNT_ID }}; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ${{ vars.ZONE_ID }}; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const rootDomain = '${{ vars.ROOT_DOMAIN }}'; // Ganti dengan domain utama kalian
+const serviceName = '${{ vars.SERVICE_NAME }}'; // Ganti dengan nama workers kalian
+const apiKey = '${{ vars.API_KEY }}'; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = '${{ vars.API_EMAIL }}'; // Ganti dengan email yang kalian gunakan
+const accountID = '${{ vars.ACCOUNT_ID }}'; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = '${{ vars.ZONE_ID }}'; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
